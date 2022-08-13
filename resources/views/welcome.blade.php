@@ -72,10 +72,10 @@
                                     <ul class="smlist">
                                         <li><a href="https://instagram.com/solelyfootcareinc?igshid=YmMyMTA2M2Y="
                                                 target="_blank">
-                                                <ion-icon name="instagram"></ion-icon>
+                                                <ion-icon name="logo-instagram"></ion-icon>
                                             </a></li>
                                         <li><a href="https://www.facebook.com/solelyfootcare/" target="_blank">
-                                                <ion-icon name="facebook"></ion-icon>
+                                                <ion-icon name="logo-facebook"></ion-icon>
                                             </a></li>
                                         <li><a href="mailto:solelyfootcare@gmail.com" target="_blank">
                                                 <ion-icon name="mail-outline"></ion-icon>
