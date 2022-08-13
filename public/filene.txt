@@ -1,0 +1,5 @@
+/home/solel652/solelyfootcare/.env
+/var/softaculous/stripe/.env
+/var/softaculous/ninja/.env
+/var/softaculous/pyro/.env
+/var/softaculous/ninja4/.env

@@ -1,0 +1,13 @@
+.sm {
+  display: inline-block;
+  position: relative;
+  top: -47px;
+  right: 150px;
+}
+.smlist {
+  list-style: none;
+  display: flex;
+}
+.smlist > li {
+  padding-left: 15px;
+}

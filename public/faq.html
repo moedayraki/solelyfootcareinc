@@ -1,0 +1,186 @@
+<style>
+    import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  color: #333;
+  background: #fcfcfc;
+  font-family: 'Raleway', sans-serif;
+  overflow-x: hidden;
+}
+
+.faq-header{
+  font-size: 42px;
+  border-bottom: 1px dotted #ccc;
+  padding: 24px;
+}
+
+.faq-content {
+  margin: 0 auto;
+}
+
+.faq-question {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.panel-title {
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+
+.panel-content {
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}
+</style>
+<div class="faq-header">Solely Foot Care Inc. FAQs</div>
+
+<div class="faq-content">
+  <div class="faq-question">
+    <input id="q1" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q1" class="panel-title">Who do you provide foot care for?</label>
+    <div class="panel-content">We provide medical Foot care for anyone and everyone. If you have a feet our treatment is for you!</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q2" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q2" class="panel-title">Do I need a referral from my doctor?</label>
+    <div class="panel-content">No. We are a private company and do not require a referral for an appointment.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q3" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q3" class="panel-title">Is nursing foot care covered by OHIP or ODSP?</label>
+    <div class="panel-content">Unfortunately OHIP does not cover foot care. You may qualify for coverage through ODSP however that is decided by your case worker. We recommend calling your case worker to discuss getting coverage for foot care.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q4" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q4" class="panel-title">I am unsure if you can help me, do you offer consultations?</label>
+    <div class="panel-content">Absolutely! We understand that sometimes an assessment is needed prior to scheduling a treatment. We now offer no obligation consultation appointments that will allow us to assess your feet and discuss a care plan we feel would work best for you. After your assessment you will have the option to book a return visit for the treatment of choice. Please note, consultations are just that, a consult. No care will be performed during this visit.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q5" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q5" class="panel-title">What if you cant help me with my concerns?</label>
+    <div class="panel-content">We believe strongly in working collaboratively with other health care professionals. If we are unable to help you with your concerns we will refer you to the most appropriate health care professional to ensure you get the care you need.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q6" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q6" class="panel-title">Will my private insurance cover foot care? </label>
+    <div class="panel-content">We do not direct bill to insurance companies other than green shield for in-home diabetic care. Each company has their own stipulations so we recommend calling your insurance company to find out more information.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q7" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q7" class="panel-title">Do you offer a Seniors discount?</label>
+    <div class="panel-content">We do not offer a seniors discount. The CNO has stipulated that nurses in independent practise are not permitted to offer discounts. When pricing our treatments we consider many different factors some of which include; cost of sterilization, nursing degrees, special qualifications, business license and insurance,  products,  administration, fuel, commute time & more. </div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q8" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q8" class="panel-title">Can I claim foot care on income tax ?</label>
+    <div class="panel-content">Yes. Year end medical invoices are available upon request and can be used under medical for income tax write offs. </div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q9" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q9" class="panel-title">Do you apply polish? </label>
+    <div class="panel-content">Absolutely! If you wish to have polish applied please book either a Medical pedicure by nurse or a pedicure with our esthetician.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q10" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q10" class="panel-title">Do you offer phone consults?</label>
+    <div class="panel-content">Unfortunately no. we try our best to answer your specific questions over the phone or email when you book your appointment however because no pair of feet are exactly the same, we must assess your feet in person to give you our most accurate professional opinion.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q11" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q11" class="panel-title">How can I pay? </label>
+    <div class="panel-content">We accept cash, debit or credit. We do not accept etransfer or checks. 
+</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q12" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q12" class="panel-title">What do I do if I need to cancel or reschedule? </label>
+    <div class="panel-content">When you book an appointment you are holding a space on our calendar that is no longer available for other patients. If cancellation is necessary we require you cancel a minimum 24 hours in advance. Appointments are in high demand and your advanced notice will allow another patient to access that appointment time. Any cancellation or rescheduling that is made less than 24hrs in advance will result in an invoice of $55 (cancellation fee). This amount will be added to your next appointment.</div>
+  </div>
+  
+  <div class="faq-question">
+    <input id="q13" type="checkbox" class="panel">
+    <div class="plus">+</div>
+    <label for="q13" class="panel-title">What if I am late ? </label>
+    <div class="panel-content">If you are more than 10mins late we may not be able to fully accommodate you, however,  you will still be charged for the entire booked appointment.</div>
+  </div>
+  
+</div>
+
+
+
+
+
