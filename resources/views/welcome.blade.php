@@ -25,7 +25,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <style>
-        a{
+        a {
             color: #000000 !important;
         }
     </style>
@@ -48,7 +48,8 @@
                         <div class="col-6 col-md-4">
                             <h1 class="my-0 site-logo">
 
-                                <a href="/"><img width="50%" class="img-fluid" src="images/dayrakiarts_5.png" /></a>
+                                <a href="/"><img width="50%" class="img-fluid"
+                                        src="images/dayrakiarts_5.png" /></a>
                             </h1>
                         </div>
                         <div class="col-6 col-md-8">
@@ -69,9 +70,16 @@
                                 </div>
                                 <div class="sm">
                                     <ul class="smlist">
-                                        <li><a href="https://instagram.com/solelyfootcareinc?igshid=YmMyMTA2M2Y=" target="_blank"><ion-icon name="logo-instagram" ></ion-icon></a></li>
-                                        <li><a href="https://www.facebook.com/solelyfootcare/" target="_blank"><ion-icon name="logo-facebook" ></ion-icon></a></li>
-                                        <li><a href="mailto:solelyfootcare@gmail.com" target="_blank"><ion-icon name="mail-outline"></ion-icon></a></li>
+                                        <li><a href="https://instagram.com/solelyfootcareinc?igshid=YmMyMTA2M2Y="
+                                                target="_blank">
+                                                <ion-icon name="instagram"></ion-icon>
+                                            </a></li>
+                                        <li><a href="https://www.facebook.com/solelyfootcare/" target="_blank">
+                                                <ion-icon name="facebook"></ion-icon>
+                                            </a></li>
+                                        <li><a href="mailto:solelyfootcare@gmail.com" target="_blank">
+                                                <ion-icon name="mail-outline"></ion-icon>
+                                            </a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -96,8 +104,8 @@
                     <div class="col-md-6 ml-auto align-self-center">
                         <div class="intro">
                             <div class="heading">
-                                <a href="/"><img width="80%" class="img-fluid" style="padding-bottom: 30px;"
-                                        src="images/dayrakiarts_5.png" /></a></h1>
+                                <a href="/"><img width="80%" class="img-fluid"
+                                        style="padding-bottom: 30px;" src="images/dayrakiarts_5.png" /></a></h1>
                             </div>
                             <div class="text">
                                 <p class="sub-text mb-5">Professional and Quality Care in a Safe, Clean and Accessible
@@ -115,22 +123,24 @@
                 <div class="row mb-5">
                     <div class="col-lg-6 section-title">
                         <span class="sub-title mb-2 d-block">What We Do</span>
-                        <h2 class="title text-black">We specialize in complete nursing foot care for anyone & everyone, with or without underlying health conditions.</h2>
+                        <h2 class="title text-black">We specialize in complete nursing foot care for anyone & everyone,
+                            with or without underlying health conditions.</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-10 ml-auto">
                         <div class="row">
-                            @foreach($services as $service)
-                            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                                <div class="service h-100">
-                                    <h3>{{$service->name}}</h3>
-                                    <p>Treatment length: {{$service->length}}</p>
-                                    <p><a href="#" data-toggle="modal" data-target="#modal-{{$service->id}}"
-                                            class="readmore">Learn more</a></p>
-                                    @include('modals.service')
+                            @foreach ($services as $service)
+                                <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
+                                    <div class="service h-100">
+                                        <h3>{{ $service->name }}</h3>
+                                        <p>Treatment length: {{ $service->length }}</p>
+                                        <p><a href="#" data-toggle="modal"
+                                                data-target="#modal-{{ $service->id }}" class="readmore">Learn
+                                                more</a></p>
+                                        @include('modals.service')
+                                    </div>
                                 </div>
-                            </div>
                             @endforeach
                         </div>
                     </div>
@@ -146,23 +156,37 @@
                     <div class="col-lg-5 ml-auto section-title">
                         <span class="sub-title mb-2 d-block">Our Mission</span>
                         <h2 class="title text-black mb-3">About Us</h2>
-                        <p class="mb-4">Solely Foot Care Inc. Is a locally owned and operated, nursing foot care company offering state-of-the-art, professional care in two modern clinics with private treatment areas. In addition we also offer mobile foot care throughout Windsor Essex County for those who are unable to come into our clinic.
- Our medical foot care treatments are performed by nurses who have a certification in foot care, hold a current College of Nurses License and insurance through either the RPANO or RNAO. 
-We provide the highest level of infection control by following the standards for sterilization set out by IPAC Canada (Infection Prevention and Control Canada), this means all tools are sterilized by autoclave. 
-At Solely Foot Care Inc. we believe strongly in collaborative care and work closely with many doctors and health professionals in Windsor Essex to ensure you receive the best care. We will always refer when needed or for a second opinion.
-Our feet deserve the same attention as any other part of our bodies. When your feet feel good, you feel good.</p>
+                        <p class="mb-4">Solely Foot Care Inc. Is a locally owned and operated, nursing foot care
+                            company offering state-of-the-art, professional care in two modern clinics with private
+                            treatment areas. In addition we also offer mobile foot care throughout Windsor Essex County
+                            for those who are unable to come into our clinic.
+                            Our medical foot care treatments are performed by nurses who have a certification in foot
+                            care, hold a current College of Nurses License and insurance through either the RPANO or
+                            RNAO.
+                            We provide the highest level of infection control by following the standards for
+                            sterilization set out by IPAC Canada (Infection Prevention and Control Canada), this means
+                            all tools are sterilized by autoclave.
+                            At Solely Foot Care Inc. we believe strongly in collaborative care and work closely with
+                            many doctors and health professionals in Windsor Essex to ensure you receive the best care.
+                            We will always refer when needed or for a second opinion.
+                            Our feet deserve the same attention as any other part of our bodies. When your feet feel
+                            good, you feel good.</p>
                         <!--<div class="d-flex">-->
                         <!--    <ul class="list-unstyled ul-check success mr-5">-->
-                        <!--        @foreach($information as $info)-->
+                        <!--        @foreach ($information as $info)
+-->
                         <!--        <li class="col-md-6"><a style="cursor:pointer" data-toggle="modal"-->
-                        <!--                data-target="#information-{{$info->id}}">{{$info->name}}</a>-->
+                        <!--                data-target="#information-{{ $info->id }}">{{ $info->name }}</a>-->
                         <!--        </li>-->
                         <!--        @include('modals.information')-->
-                        <!--        @if($loop->index == floor($loop->count/2))-->
+                        <!--        @if ($loop->index == floor($loop->count / 2))
+-->
                         <!--    </ul>-->
                         <!--    <ul class="list-unstyled ul-check success">-->
-                        <!--        @endif-->
-                        <!--        @endforeach-->
+                        <!--
+@endif-->
+                        <!--
+@endforeach-->
                         <!--        {{-- <li><a style="cursor:pointer" data-toggle="modal" data-target="#taxincome">Tax-->
                         <!--                Income</a></li>-->
                         <!--        @include('modals.taxincome')-->
@@ -211,13 +235,6 @@ Our feet deserve the same attention as any other part of our bodies. When your f
                                         community, telemedicine and teaching informatics across Ontario. Advanced Foot
                                         Care gave me the opportunity to expand my knowledge and skills to those in such
                                         need. </p>
-                                    <p class="d-flex align-items-center">
-                                        <span class="mr-3 text-black">Follow us:</span>
-                                        <a href="https://www.facebook.com/solelyfootcare/?ref=page_internal"
-                                            class="facebook p-2"><span class="icon-facebook"></span></a>
-                                        <a href="https://www.instagram.com/p/CEF_y-OhcVx/" class="instagram p-2"><span
-                                                class="icon-instagram"></span></a>
-                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -379,17 +396,18 @@ Our feet deserve the same attention as any other part of our bodies. When your f
                 <div class="row pt-5 mt-5 text-center">
                     <div class="col-md-12">
                         <div class="mb-4">
-                            <a href="https://www.facebook.com/solelyfootcare/?ref=page_internal" class="pl-0 pr-3"><span
-                                    class="icon-facebook"></span></a>
+                            <a href="https://www.facebook.com/solelyfootcare/?ref=page_internal"
+                                class="pl-0 pr-3"><span class="icon-facebook"></span></a>
                             <a href="https://www.instagram.com/p/CEF_y-OhcVx/" class="pl-3 pr-3"><span
                                     class="icon-instagram"></span></a>
                         </div>
                         <p>
-                            Copyright &copy;<script>
+                            Copyright &copy;
+                            <script>
                                 document.write(new Date().getFullYear());
-                            </script> All rights reserved | This website is made <i class="icon-code text-danger"
-                                aria-hidden="true"></i> by <a href="https://dayrakiarts.com"
-                                target="_blank">dayrakiarts</a>
+                            </script> All rights reserved | This website is made <i
+                                class="icon-code text-danger" aria-hidden="true"></i> by <a
+                                href="https://dayrakiarts.com" target="_blank">dayrakiarts</a>
                         </p>
                     </div>
 
@@ -412,8 +430,8 @@ Our feet deserve the same attention as any other part of our bodies. When your f
     <script src="js/main.js"></script>
     <script>
         window.onload = (event) => {
-    document.getElementsByClassName('owl-nav')[0].style.display = "none";
-    };
+            document.getElementsByClassName('owl-nav')[0].style.display = "none";
+        };
     </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
