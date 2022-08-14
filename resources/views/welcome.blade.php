@@ -64,6 +64,8 @@
                                         <li><a href="#what-we-do-section" class="nav-link">What We Do</a></li>
                                         <li><a href="#about-section" class="nav-link">About Us</a></li>
                                         <li><a href="#meet-the-team" class="nav-link">Meet the Team</a></li>
+                                        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                                        <li><a href="#gallery-section" class="nav-link">Our Gallery</a></li>
                                         <li><a href="/faq.html" target="_blank" class="nav-link">FAQ</a></li>
                                         <li><a href="#contact-section" class="nav-link">Contact</a></li>
                                     </ul>
@@ -215,26 +217,63 @@
                     </div>
                 </div>
                 <div class="row no-gutters">
-                    <div class="col-lg-12 mb-5 person">
-                        <img src="images/dayrakiarts_5.jpg" alt="Image" class="img-fluid mb-5">
 
+                    <div class="container mt-3">
                         <div class="row">
-                            <div class="col-lg-10 ml-auto">
-                                <div class="pr-lg-5">
-                                    <h3>Sarah and Jenne</h3>
-                                    <span class="mb-4 d-block">Owners, RPN, AFCN </span>
-                                    <p><b>Jenne: </b>Hi, I'm Jenn. I am a mom of 2 , a girl Savvi & a boy Leo. I am a
-                                        wife to my amazing husband John & have been a nurse for the last 5 years. It has
-                                        always been a dream of mine to own a nursing company and create a team that is
-                                        not only the most compassionate, respectful, educated & unstoppable, but also a
-                                        team that truly loves the business they work for and create an environment that
-                                        is stress free.</p>
-                                    <p><b>Sarah: </b>Hello, I'm Sarah! I'm a mother and wife to my beautiful family and
-                                        in the past 6 years I have worked in several health care sectors as a Registered
-                                        Practical Nurse serving Windsor Essex- County. I have worked in long term care,
-                                        community, telemedicine and teaching informatics across Ontario. Advanced Foot
-                                        Care gave me the opportunity to expand my knowledge and skills to those in such
-                                        need. </p>
+                            <div class="col-md-3">
+                                <div class="bg-white p-3 text-center rounded box"><img
+                                        class="img-responsive rounded-circle"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
+                                        width="90">
+                                    <h5 class="mt-3 name">Sarah</h5>
+                                    <span class="work d-block">Owner, RPN, AFCN</span>
+                                    {{-- <div class="mt-4 about">
+                                        <span>is a long established fact that eader&nbsp; will be
+                                            distracted by the readable content.
+                                        </span>
+                                    </div> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="bg-white p-3 text-center rounded box"><img
+                                        class="img-responsive rounded-circle"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
+                                        width="90">
+                                    <h5 class="mt-3 name">Jenne</h5>
+                                    <span class="work d-block">Owner, RPN, AFCN</span>
+                                    {{-- <div class="mt-4 about">
+                                        <span>is a long established fact that eader&nbsp; will be
+                                            distracted by the readable content.
+                                        </span>
+                                    </div> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="bg-white p-3 text-center rounded box"><img
+                                        class="img-responsive rounded-circle"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
+                                        width="90">
+                                    <h5 class="mt-3 name">Leigh</h5>
+                                    <span class="work d-block">BScN, AFCN, Wound Care Nurse</span>
+                                    {{-- <div class="mt-4 about">
+                                        <span>is a long established fact that eader&nbsp; will be
+                                            distracted by the readable content.
+                                        </span>
+                                    </div> --}}
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="bg-white p-3 text-center rounded box"><img
+                                        class="img-responsive rounded-circle"
+                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
+                                        width="90">
+                                    <h5 class="mt-3 name">Melissa</h5>
+                                    <span class="work d-block">Esthetician</span>
+                                    {{-- <div class="mt-4 about">
+                                        <span>is a long established fact that eader&nbsp; will be
+                                            distracted by the readable content.
+                                        </span>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -242,12 +281,12 @@
                 </div>
             </div>
         </div>
-        <div class="site-section bg-light">
+        <div class="site-section bg-light" id="reviews">
             <div class="container">
                 <div class="row mb-5 ">
                     <div class="col-md-7 section-title text-center mx-auto">
                         <span class="sub-title mb-2 d-block">Testimonials</span>
-                        <h2 class="title text-black mb-3">What Our Clients Are Sayings</h2>
+                        <h2 class="title text-black mb-3">What Our Clients Are Saying</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -256,12 +295,12 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="site-section" id="gallery-section">
+        <div class="site-section" id="gallery-section">
             <div class="container">
                 <div class="row mb-5 ">
                     <div class="col-md-7 section-title text-center mx-auto">
                         <span class="sub-title mb-2 d-block">Gallery</span>
-                        <h2 class="title text-black mb-3">Stay Up to Date</h2>
+                        <h2 class="title text-black mb-3">Stay Up to Date With Our Feeds</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -269,7 +308,7 @@
                     <div class="elfsight-app-38d5324f-118c-4859-8974-21bb19b59367"></div>
                 </div>
             </div>
-        </div> --}}
+        </div>
         <div class="site-section" id="contact-section">
             <div class="container">
                 <form action="/mail" method="post" class="contact-form">
