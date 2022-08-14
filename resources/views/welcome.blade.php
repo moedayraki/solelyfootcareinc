@@ -222,9 +222,8 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="bg-white p-3 text-center rounded box"><img
-                                        class="img-responsive rounded-circle"
-                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
-                                        width="90">
+                                        class="img-responsive rounded-circle" src="/images/sarah.PNG" alt="Sarah"
+                                        width="150">
                                     <h5 class="mt-3 name">Sarah</h5>
                                     <span class="work d-block">Owner, RPN, AFCN</span>
                                     {{-- <div class="mt-4 about">
@@ -236,9 +235,8 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="bg-white p-3 text-center rounded box"><img
-                                        class="img-responsive rounded-circle"
-                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
-                                        width="90">
+                                        class="img-responsive rounded-circle" src="/images/jenne.JPG" alt="Jenne"
+                                        width="150">
                                     <h5 class="mt-3 name">Jenne</h5>
                                     <span class="work d-block">Owner, RPN, AFCN</span>
                                     {{-- <div class="mt-4 about">
@@ -250,9 +248,8 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="bg-white p-3 text-center rounded box"><img
-                                        class="img-responsive rounded-circle"
-                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
-                                        width="90">
+                                        class="img-responsive rounded-circle" src="/images/leigh.JPG" alt="Leigh"
+                                        width="150">
                                     <h5 class="mt-3 name">Leigh</h5>
                                     <span class="work d-block">BScN, AFCN, Wound Care Nurse</span>
                                     {{-- <div class="mt-4 about">
@@ -264,9 +261,8 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="bg-white p-3 text-center rounded box"><img
-                                        class="img-responsive rounded-circle"
-                                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpWvXdcjNuTkrkDCYKZRtWwZ-emiiDJdP6sUb7VRshRA&s"
-                                        width="90">
+                                        class="img-responsive rounded-circle" src="/images/melissa.JPEG"
+                                        alt="Melissa" width="150">
                                     <h5 class="mt-3 name">Melissa</h5>
                                     <span class="work d-block">Esthetician</span>
                                     {{-- <div class="mt-4 about">
