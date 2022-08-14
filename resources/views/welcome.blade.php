@@ -300,7 +300,7 @@
                 <div class="row mb-5 ">
                     <div class="col-md-7 section-title text-center mx-auto">
                         <span class="sub-title mb-2 d-block">Gallery</span>
-                        <h2 class="title text-black mb-3">Stay Up to Date With Our Feeds</h2>
+                        <h2 class="title text-black mb-3">Stay Up to Date With Our Feed</h2>
                     </div>
                 </div>
                 <div class="row">
