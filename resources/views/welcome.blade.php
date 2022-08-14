@@ -251,60 +251,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6 mb-4">
-                        <div class="testimonial bg-white h-100">
-                            <blockquote class="mb-3">
-                                <p>&ldquo;A++ service and professionalism!!! Thanks for taking care of my very painful
-                                    ingrown toenails. Onxyfix Ingrown Toe Nail Brace applied to my Big toes 4 wks ago
-                                    and now absolutely pain free even with being on my feet for 10+ hrs a day. Couldn't
-                                    be happier with the results and you can't even see the Onxyfix Brace when your toes
-                                    are painted!!!&rdquo;</p>
-                            </blockquote>
-                            <div class="d-flex align-items-center vcard">
-                                <div class="vcard-text">
-                                    <span class="d-block">—Leigh</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 mb-4">
-                        <div class="testimonial bg-white h-100">
-                            <blockquote class="mb-3">
-                                <p>&ldquo;I was one of the winners of the $25 gift certificate. Yesterday I went for a
-                                    medical pedicure. Sarah is the one that worked on my feet. She is an extremely kind
-                                    and friendly person. She explained everything that she was doing. She answered all
-                                    of my questions I had . She did not rush and my feet looked pretty and felt
-                                    wonderful. She made my visit a very enjoyable one. I would recommend this service to
-                                    anyone that needs a medical pedicure. Thank you again Sarah for making my
-                                    appointment so enjoyable.&rdquo;</p>
-                            </blockquote>
-                            <div class="d-flex align-items-center vcard">
-                                <div class="vcard-text">
-                                    <span class="d-block">—Joyce</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mb-4">
-                        <div class="testimonial bg-white h-100">
-                            <blockquote class="mb-3">
-                                <p>&ldquo;Very friendly staff, professional and knowledgeable nurses. They did an
-                                    amazing job on my medical pedicure, my feet look and feel great. Everything was so
-                                    clean and organized, sterile equipment. Highly recommend for all of your foot care
-                                    needs!!&rdquo;</p>
-                            </blockquote>
-                            <div class="d-flex align-items-center vcard">
-                                <div class="vcard-text">
-                                    <span class="d-block">-Ashley</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                    <div class="elfsight-app-3b27299e-4c0a-47ab-8989-c949d65f4c64"></div>
                 </div>
             </div>
         </div>
+        {{-- <div class="site-section" id="gallery-section">
+            <div class="container">
+                <div class="row mb-5 ">
+                    <div class="col-md-7 section-title text-center mx-auto">
+                        <span class="sub-title mb-2 d-block">Gallery</span>
+                        <h2 class="title text-black mb-3">Stay Up to Date</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                    <div class="elfsight-app-38d5324f-118c-4859-8974-21bb19b59367"></div>
+                </div>
+            </div>
+        </div> --}}
         <div class="site-section" id="contact-section">
             <div class="container">
                 <form action="/mail" method="post" class="contact-form">
@@ -357,7 +322,8 @@
                                         href="https://www.google.ca/maps/place/2441+Dougall+Ave,+Windsor,+ON+N8X+1T3/@42.2873615,-83.0253612,17z/data=!3m1!4b1!4m5!3m4!1s0x883b2c45a9bec00f:0x9f1cceb4fa3bab62!8m2!3d42.2873615!4d-83.0231672">2441
                                         Dougall Avenue</a>
                                     <br />Inside Compression Stocking & Bracing Centre
-                                    <br />Location offers: Compression stocking and bracing products and PEMF Therapy.
+                                    <br />Location offers: Compression stocking and bracing products and PEMF
+                                    Therapy.
                                     <br />
                                     <br /><a target="_blank"
                                         href="https://www.google.ca/maps/place/7875+Riverside+Dr+E,+Windsor,+ON+N8S+1E1/@42.339464,-82.9503752,17z/data=!3m1!4b1!4m5!3m4!1s0x8824d52988a2701f:0x28ee022d75e55e82!8m2!3d42.339464!4d-82.9481812">7875
