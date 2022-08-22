@@ -363,7 +363,7 @@
                                     <br /><a target="_blank"
                                         href="https://www.google.ca/maps/place/7875+Riverside+Dr+E,+Windsor,+ON+N8S+1E1/@42.339464,-82.9503752,17z/data=!3m1!4b1!4m5!3m4!1s0x8824d52988a2701f:0x28ee022d75e55e82!8m2!3d42.339464!4d-82.9481812">7875
                                         Riverside Drive East</a>
-                                    <br />Inside Riverside Medical Centre: Dr. Patrick Smith office
+                                    <br />Inside Riverside Medical Centre
                                     <br />Location offers: Family Practice, Walk-in clinic, X-ray clinic, Pharmacy,
                                     Blood laboratory, Massage therapy, Medical Cosmetics, IV Therapy, Compression
                                     stocking and bracing products
